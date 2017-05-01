@@ -1,0 +1,101 @@
+body {
+  background-color: rgba(5, 5, 5, 0.72);
+  font-family: 'Orbitron', sans-serif;
+}
+
+#tittle {
+  text-align: center;
+}
+
+#tittle h6 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#calculator {
+  width: 350px;
+  height: 570px;
+  margin: 50px auto;
+  border: 1px solid;
+  padding-top: 30px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  border:solid none;
+  box-shadow: inset 1px 0px 17px 4px #ABABAB;
+}
+
+#display {
+  width: 300px;
+  height: 80px;
+  margin: 30px auto 40px auto;
+  border: 1px solid;
+  text-align: right;
+  border-radius: 20px;
+  background-color: #A5BAAB;
+  box-shadow: inset 1px 0px 17px 4px #ABABAB,7px 10px 20px 4px #DDDDDD;
+  overflow: hidden;
+}
+
+#display h1 {
+margin: 20px 10px;
+
+
+}
+
+#buttons {
+  text-align: center;
+
+}
+
+button {
+  font-size: 20px;
+  color:#ffffff;
+  font-family: 'Orbitron', sans-serif;
+  width: 50px;
+  height: 55px;
+  margin: 6px 15px;
+  border-radius: 10px;
+  background-color: #524e4a;
+  border:solid none;
+  cursor: pointer;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+
+#adjustPosition{
+  position: absolute;
+  left: 6px;
+}
+
+#adjustPosition2 {
+  position: absolute;
+  left:7px;
+  top:472px;
+}
+
+#zero {
+  width: 135px;
+}
+
+#equal {
+  height: 120px;
+  margin-left: 265px;
+}
+
+#ac,#ce {
+  background-color: #e43e33;
+}
+
+footer {
+  color: #ffffff;
+}
